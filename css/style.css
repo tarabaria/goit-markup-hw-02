@@ -1,5 +1,4 @@
 :root {
-  --main-color: #434455;
   --main-blue-color: #4d5ae5;
   --second-color: #2e2f42;
   --light-color: #f4f4fd;
@@ -67,6 +66,10 @@ body {
   color: var(--accent-color);
 }
 
+.contact-information {
+  font-style: normal;
+}
+
 .hero-tittle {
   font-style: normal;
   font-weight: 700;
@@ -76,4 +79,19 @@ body {
   color: var(--white-color);
   background-color: var(--second-color);
   text-align: center;
+}
+
+.hero-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--main-blue-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-color);
 }
