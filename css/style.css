@@ -126,6 +126,9 @@ body {
   text-transform: capitalize;
 }
 
+.team {
+  color: var(--light-color);
+}
 .team-list {
   background: var(--light-color);
 }
@@ -155,6 +158,10 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+.team-photo {
+  background-color: var(--white-color);
 }
 
 .page-footer {
