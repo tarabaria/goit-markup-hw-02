@@ -1,0 +1,79 @@
+:root {
+  --main-color: #434455;
+  --main-blue-color: #4d5ae5;
+  --second-color: #2e2f42;
+  --light-color: #f4f4fd;
+  --accent-color: #404bbf;
+  --white-color: #ffffff;
+
+  --main-color: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: var(--second-font);
+  color: var(--main-blue-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-second-part-dark {
+  color: var(--second-color);
+}
+
+.logo-second-part-light {
+  color: var(--light-color);
+}
+
+.navigation-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+
+.navigation-btn:hover,
+.navigation-btn:focus {
+  color: var(--accent-color);
+}
+
+.email-tel {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.email-tel:hover,
+.email-tel:focus {
+  color: var(--accent-color);
+}
+
+.hero-tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  background-color: var(--second-color);
+  text-align: center;
+}
