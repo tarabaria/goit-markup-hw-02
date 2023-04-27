@@ -127,10 +127,7 @@ body {
 }
 
 .team {
-  color: var(--light-color);
-}
-.team-list {
-  background: var(--light-color);
+  background-color: var(--light-color);
 }
 
 .team-title {
