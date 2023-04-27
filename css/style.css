@@ -123,9 +123,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  text-transform: capitalize;
 }
 
-.team {
+.team-list {
   background: var(--light-color);
 }
 
@@ -136,6 +137,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  text-transform: capitalize;
 }
 
 .team-name {
