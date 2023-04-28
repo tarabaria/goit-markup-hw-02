@@ -129,6 +129,9 @@ body {
   background-color: var(--white-color);
 }
 
+.team {
+  background-color: var(--light-color);
+}
 .team-list {
   background-color: var(--white-color);
 }
