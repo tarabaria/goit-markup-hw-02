@@ -4,8 +4,6 @@
   --light-color: #f4f4fd;
   --accent-color: #404bbf;
   --white-color: #ffffff;
-  --filtr-btn-background-color: #e7e9fc;
-
   --main-color: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
 }
@@ -164,11 +162,17 @@ body {
 
 .filtr-btn {
   color: var(--main-blue-color);
-  background-color: var(--filtr-btn-background-color);
+  background-color: var(--light-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
+}
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 .project-name {
