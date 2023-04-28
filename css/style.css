@@ -132,7 +132,7 @@ body {
 .team {
   background-color: var(--light-color);
 }
-.team-list {
+.team-container {
   background-color: var(--white-color);
 }
 
