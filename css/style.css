@@ -4,6 +4,7 @@
   --light-color: #f4f4fd;
   --accent-color: #404bbf;
   --white-color: #ffffff;
+  --filtr-btn-background-color: #e7e9fc;
 
   --main-color: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
@@ -159,6 +160,30 @@ body {
 
 .team-photo {
   background-color: var(--white-color);
+}
+
+.filtr-btn {
+  color: var(--main-blue-color);
+  background-color: var(--filtr-btn-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.project-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .page-footer {
