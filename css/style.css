@@ -125,6 +125,10 @@ body {
   text-transform: capitalize;
 }
 
+.work-photo {
+  background-color: var(--white-color);
+}
+
 .team {
   background-color: var(--light-color);
 }
