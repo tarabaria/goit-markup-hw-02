@@ -168,6 +168,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 .filtr-btn:hover,
 .filtr-btn:focus {
